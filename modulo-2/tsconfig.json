@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",           // Define la versión de ECMAScript resultante.
+    "module": "NodeNext",         // Sistema de resolución de módulos moderno.
+    "strict": true,               // Activa comprobaciones exhaustivas (ej. noImplicitAny, strictNullChecks).
+    "esModuleInterop": true,      // Facilita la importación de módulos CommonJS.
+    "forceConsistentCasingInFileNames": true, // Evita errores en sistemas operativos case-sensitive (Linux).
+    "outDir": "./dist",           // Directorio de salida para el código transpilado.
+    "rootDir": "./src"            // Directorio raíz del código fuente.
+  },
+  "include": ["src/**/*"]
+}
